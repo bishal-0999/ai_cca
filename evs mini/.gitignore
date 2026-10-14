@@ -1,0 +1,28 @@
+# .gitignore
+# ─────────────────────────────────────────────
+# Files that should NOT be uploaded to GitHub
+# ─────────────────────────────────────────────
+
+# Your secret API key — NEVER share this!
+.env
+
+# Python cache files (auto-generated, not needed)
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environment folder
+venv/
+env/
+.venv/
+
+# macOS system files
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+
+# Downloaded poster images (optional)
+*.png
+!assets/

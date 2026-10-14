@@ -1,0 +1,18 @@
+# ─────────────────────────────────────────────────────────────
+# EcoAwareness AI — Python Dependencies
+# ─────────────────────────────────────────────────────────────
+# Install all of these by running:
+#   pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# Web framework — builds the entire UI in your browser
+streamlit==1.40.0
+
+# Google Gemini AI — generates the awareness content
+google-generativeai==0.8.3
+
+# Image creation — draws the poster
+Pillow==11.0.0
+
+# Reads the .env file that stores your API key safely
+python-dotenv==1.0.1
